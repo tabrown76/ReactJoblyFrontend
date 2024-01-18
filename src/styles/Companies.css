@@ -1,0 +1,82 @@
+/* Companies.css */
+
+/* Styling the container that holds the search bar and button */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+  
+/* Styling the input field */
+input[type="text"] {
+    width: 60%; 
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+/* Styling the search button */
+button {
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: black;
+}
+  
+/* Add a bit of spacing to make room for multiple cards */
+.col-md-8 {
+    margin-bottom: 1rem;
+}
+
+/* Style the card for each company */
+.Card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+/* Center-align text within each card body */
+.text-center {
+    text-align: center;
+}
+
+/* Style the card title (company name) */
+.CardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Style the card text (company description) */
+.CardText {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+/* Style the React Router Link component to make it obvious it's clickable */
+.Link {
+    text-decoration: none; 
+    color: darkslategray; 
+    font-weight: bold; 
+    border: 1px solid darkslategray; 
+    border-radius: 4px;  
+    padding: 8px 12px;
+    display: inline-block; 
+    margin-top: 1rem;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+}
+
+.Link:hover {
+    color: #fff; 
+    background-color: black;  
+}
+   
